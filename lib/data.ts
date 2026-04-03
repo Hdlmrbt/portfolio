@@ -57,7 +57,7 @@ export const heroStats: Stat[] = [
   { value: '3+',   label: 'Internships' },
   { value: '4+',   label: 'Projects' },
   { value: '10+',  label: 'Technologies' },
-  { value: 'C1',   label: 'English Level' },
+  { value: 'B2',   label: 'English Level' },
 ];
 
 // ─── About Section ─────────────────────────────────────────────────────────
@@ -175,7 +175,7 @@ export const experiences: Experience[] = [
       'Integrated audio file handling with automatic speech-to-text conversion.',
       'Implemented metadata management and content indexing for the media archive.',
     ],
-    tags: ['Django', 'NLP', 'Audio Processing', 'Dashboard', 'MySQL'],
+    tags: ['Django', 'Audio Processing', 'Dashboard', 'MySQL'],
   },
   {
     id:          'redal-2023',
@@ -204,7 +204,7 @@ export const education: Education[] = [
     institution: 'École Marocaine des Sciences de l\'Ingénieur (EMSI)',
     period:      '2024 – Present',
     location:    'Rabat, Morocco',
-    description: 'Specialization in Machine Learning, Deep Learning, Big Data, and AI systems engineering.',
+    description: 'Data analysis, preprocessing & cleaning, machine learning and deep learning, with a focus on building intelligent data-driven systems.',
   },
   {
     id:          'est',
@@ -212,7 +212,7 @@ export const education: Education[] = [
     institution: 'École Supérieure de Technologie',
     period:      '2022 – 2024',
     location:    'Salé, Morocco',
-    description: 'Network administration, system architecture, and applied computer science.',
+    description: 'Network configuration, supervision and connectivity management, along with system administration and IT infrastructure fundamentals.',
   },
   {
     id:          'bac',
@@ -227,6 +227,6 @@ export const education: Education[] = [
 
 export const languages = [
   { name: 'Arabic',  level: 'C2', label: 'Native' },
-  { name: 'English', level: 'C1', label: 'Advanced' },
-  { name: 'French',  level: 'B2', label: 'Upper-Intermediate' },
+  { name: 'English', level: 'B2', label: 'Advanced' },
+  { name: 'French',  level: 'C1', label: 'Upper-Intermediate' },
 ];
