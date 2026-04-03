@@ -71,8 +71,8 @@ export function ContactSection() {
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeader
           eyebrow="Contact"
-          title="Let's work together"
-          subtitle="Open to internships, collaborations, and full-time opportunities. Let's build something great."
+          title="Let&apos;s work together"
+          subtitle="Open to internships, collaborations, and full-time opportunities. Let&apos;s build something great."
         />
 
         <div className="grid lg:grid-cols-[380px,1fr] gap-10">
@@ -173,7 +173,7 @@ export function ContactSection() {
                   </div>
                   <p className="text-base font-semibold text-[var(--text)]">Message sent!</p>
                   <p className="text-sm text-[var(--text-3)] max-w-xs">
-                    Thank you for reaching out. I'll get back to you as soon as possible.
+                    Thank you for reaching out. I&apos;ll get back to you as soon as possible.
                   </p>
                   <button
                     onClick={() => setSubmitState('idle')}
@@ -222,7 +222,7 @@ export function ContactSection() {
                       name="subject"
                       value={form.subject}
                       onChange={handleChange}
-                      placeholder="What's this about?"
+                      placeholder="What&apos;s this about?"
                       className={inputClass}
                     />
                   </div>

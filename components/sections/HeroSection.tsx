@@ -86,7 +86,7 @@ export function HeroSection() {
               variants={itemVariants}
               className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.05] mb-4"
             >
-              <span className="text-[var(--text)]">Hi, I'm </span>
+              <span className="text-[var(--text)]">Hi, I&apos;m </span>
               <span className="gradient-text">Houda</span>
             </motion.h1>
 
